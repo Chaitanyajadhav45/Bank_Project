@@ -56,7 +56,7 @@ class Bank
 					case 1:
 						{
 						// deposite
-							System.out.println(" \n Enter Amount to deposite :  ");
+							System.out.println(" \n Enter Amount to deposit :  ");
 							deposite = sc.nextDouble();
 							balance += deposite;
 							System.out.println(" \n Deposite Successfull.. ");
@@ -83,7 +83,7 @@ class Bank
 									}
 									else
 									{
-										System.out.print ("\n Inuficient Balance ..");
+										System.out.print ("\n Insufficient Balance ..");
 									}
 								}
 								else
@@ -182,7 +182,7 @@ class Bank
 			long number = sc.nextLong();
 			System.out.print("\n ENTER YOUR ADDRESS : ");
 			String address = sc.next();
-			System.out.print("Deposite : ");
+			System.out.print("Deposit : ");
 			balance = sc.nextDouble();
 			System.out.println("\n ACCOUNT CREATED SUCCESSFULLY...");
         }
